@@ -104,7 +104,7 @@ main .para{
 }
 @media screen  and (max-width:576px){
  
-    .header {
+    .header,.checkbox ul {
         flex-direction: column;
     }
     .hero {
@@ -117,11 +117,14 @@ main .para{
     }
     main .para {
         font-size: 15px;
-        width: 100%
+        width: 200px;
         /* color: gray; */
     }
     .button button{
           padding: 8px 18px;
+    }
+    .checkbox ul{
+        padding: 10px;
     }
     .anchore ul li a {    margin-right: 30px;
         margin-left: -14px;}
@@ -146,5 +149,8 @@ main .para{
         position: absolute;
         top: 120px;
         right: 100px;
+    }
+    .hero img {
+        width: 300px;
     }
 }
