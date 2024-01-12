@@ -101,9 +101,7 @@ main .para{
     padding-top: 10px;
 }
 @media screen  and (max-width:576px){
-    body{
-        background-color: bisque;
-    }
+ 
     .header {
         flex-direction: column;
     }
