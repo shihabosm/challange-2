@@ -35,6 +35,7 @@ body{
 }
 .anchore ul{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .anchore ul li{
@@ -46,6 +47,7 @@ body{
     font-size: 25px;
     margin-right: 65px;
 }
+
 /* header a flex deoya karone */
 .header{
     display: flex;
