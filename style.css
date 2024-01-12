@@ -123,6 +123,7 @@ main .para{
     .button button{
           padding: 8px 18px;
     }
+    .anchore ul li a {    margin-right: 30px;}
 }
 @media screen and (min-width:576px) and (max-width:992px){
     .hero {
