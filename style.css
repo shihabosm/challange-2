@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+}
+.sun{
+    display: flex;
+    background-color: rgb(22, 18, 18);
+    width: 42px;
+    padding: 0px 5px 0px 25px;
+    border-radius: 20px;
+
+}
+.sun-light{
+    background-image: url(img/Moon_fill.svg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    
+}
+.sun-light img{
+    width: 22px;
+    margin-top: 4px;
+    margin-left: -1px;
+    
+}
+.sun-fill{
+    background-color: white;
+    width: 25px;
+    border-radius: 100%;
+}
+.sun-fill img{
+    margin-top: 2px;
+}
+.anchore ul{
+    display: flex;
+    
+}
+.anchore ul li{
+    list-style: none;
+}
+.anchore ul li a{
+    text-decoration: none;
+    color: rgb(36, 26, 26);
+    font-size: 25px;
+    margin-right: 65px;
+}
+/* header a flex deoya karone */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero{
+    width: 600px;
+    position: absolute;
+    top: 190px;
+    right: 200px;
+}
+.hero img{
+    width: 100%;
+
+}
+main .emoji{
+    margin-top: 120px;
+}
+main .big{
+    width: 400px;
+    font-size: 80px;
+}
+main .para{
+    font-size: 25px;
+    width: 400px;
+    color: gray;
+}
+.button button{
+    background-color:#2176FF ;
+    color: white;
+    border: 0;
+    font-size: larger;
+    padding: 18px 31px;
+    border-radius: 15px;
+}
+.button a{
+    color: #2176FF;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.checkbox{
+    width: 400px;
+}
+.checkbox ul li{
+    list-style: url(img/Done_ring_round_fill.svg);
+    color: gray;
+}
+.checkbox ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+@media screen  and (max-width:576px){
+    body{
+        background-color: bisque;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .hero {
+        width: 100%;
+        position: static;
+    }
+    main .big {
+        width: 100%;
+        font-size: 60px;
+    }
+    main .para {
+        font-size: 15px;
+        width: 100%
+        /* color: gray; */
+    }
+    .button button{
+          padding: 8px 18px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .hero {
+        position: static;}
+    
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .hero {
+        /* width: 600px; */
+        position: absolute;
+        top: 40px;
+        right: 0px;
+    }
+    
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .hero {
+        /* width: 500px; */
+        position: absolute;
+        top: 120px;
+        right: 100px;
+    }
+}
